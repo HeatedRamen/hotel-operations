@@ -30,7 +30,9 @@ public class Room {
 
     @Override
     public String toString() {
-        return  "Type: " + roomType +" Dirty: " + dirty +
-                " Occupied: " + occupied + " Available: " + isAvailable();
+        return  "Type: " + roomType +
+                "\nDirty: " + dirty +
+                "\nOccupied: " + occupied +
+                "\nAvailable: " + isAvailable();
     }
 }

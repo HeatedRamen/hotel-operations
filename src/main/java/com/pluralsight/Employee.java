@@ -21,6 +21,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Name: "+ name + "\nRegular Hours: " + getRegularHours() + " Overtime Hours: " + getOvertimeHours() + " Total Pay: " + getTotalPay();
+        return "Name: "+ name +
+                "\nRegular Hours: " + getRegularHours() + " Overtime Hours: " + getOvertimeHours() +
+                "\nTotal Pay: " + getTotalPay();
     }
 }

@@ -15,12 +15,28 @@ public class HotelApp {
         Employee employee2 = new Employee(11, "Ezra", "Janitor", 7.5, 70);
 
         System.out.println(twin1);
+        System.out.println();
+
         System.out.println(twin2);
+        System.out.println();
+
         System.out.println(king1);
+        System.out.println();
+
         System.out.println(king2);
+        System.out.println();
+
+        System.out.println(guest1);
+        System.out.println();
+
+        System.out.println(guest2);
+        System.out.println();
 
         System.out.println(employee1);
+        System.out.println();
+
         System.out.println(employee2);
+        System.out.println();
     }
 
 }
