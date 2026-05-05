@@ -37,7 +37,7 @@ public class Reservation {
     }
 
     public double getReservationTotal(){
-        return getPrice() * numberOfNights;
+        return (!weekend) ? (getPrice() * numberOfNights) : (1.1 * getPrice() * numberOfNights);
     }
 
     @Override

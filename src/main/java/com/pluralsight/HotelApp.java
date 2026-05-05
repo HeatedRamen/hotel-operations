@@ -37,6 +37,9 @@ public class HotelApp {
 
         System.out.println(employee2);
         System.out.println();
+
+        employee2.punchTimeCard(20, 5);
+        System.out.println(employee2);
     }
 
 }

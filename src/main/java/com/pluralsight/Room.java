@@ -28,6 +28,13 @@ public class Room {
     public boolean isDirty() {return  dirty;}
     public boolean isAvailable() { return (!occupied && !dirty);}
 
+    public void checkIn(){
+        dirty = true;
+        occupied = true;
+    }
+    public void checkOut(){ occupied = false; }
+    public void cleanRoom(){ dirty = false; }
+
     @Override
     public String toString() {
         return  "Type: " + roomType +
