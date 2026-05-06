@@ -12,8 +12,12 @@ public class HotelApp {
         Reservation guest2 = new Reservation("Twin", 5, false);
 
         Employee employee1 = new Employee(10, "Jolie", "Manager", 50, 30);
-        Employee employee2 = new Employee(11, "Ezra", "Janitor", 7.5, 70);
+        Employee employee2 = new Employee(11, "Frankenstein", "Janitor", 7.5, 70);
 
+        System.out.println(twin1);
+        System.out.println();
+
+        twin1.checkIn();
         System.out.println(twin1);
         System.out.println();
 
@@ -39,6 +43,10 @@ public class HotelApp {
         System.out.println();
 
         employee2.punchTimeCard(20, 5);
+        System.out.println(employee2);
+        System.out.println();
+
+        employee2.punchTimeCard(10, 20);
         System.out.println(employee2);
     }
 
