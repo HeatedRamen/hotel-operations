@@ -11,6 +11,12 @@ public class Room {
         this.roomType = "";
     }
 
+    Room(String roomType){
+        dirty = false;
+        occupied = false;
+        this. roomType = roomType;
+    }
+
     Room(boolean dirty, boolean occupied, String roomType){
         this.dirty = dirty;
         this.occupied = occupied;

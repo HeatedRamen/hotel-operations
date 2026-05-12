@@ -19,6 +19,7 @@ public class Employee {
         shiftStart = -1;
     }
 
+
     public void punchIn(int time){
         shiftStart = time;
     }
@@ -64,6 +65,8 @@ public class Employee {
     public double getTotalPay(){ return (hoursWorked < 40) ? hoursWorked * payRate : (40 * payRate) + ((1.5 * payRate) * getOvertimeHours());}
     public double getRegularHours() { return (hoursWorked < 40) ? hoursWorked : 40;}
     public double getOvertimeHours() { return (hoursWorked < 40) ? 0 : hoursWorked - 40;}
+    public int getShiftStart() { return shiftStart; }
+    public double getHoursWorked() { return hoursWorked; }
 
     @Override
     public String toString() {
